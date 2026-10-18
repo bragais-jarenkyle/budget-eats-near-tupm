@@ -6,9 +6,7 @@
   <title>Budget Eats Near TUPM</title>
 
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       font-family: "Segoe UI", Arial, sans-serif;
@@ -20,42 +18,45 @@
       padding: 20px;
     }
 
-    h1 {
-      color: #c2410c;
-      font-size: 2.2rem;
-      margin-bottom: 10px;
+    header {
+      text-align: center;
+      border-bottom: 3px dashed #f97316;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
     }
 
+    h1 { color: #c2410c; font-size: 2.2rem; margin: 0 0 10px; }
     h2 {
       color: #9a3412;
       border-left: 5px solid #f97316;
       padding-left: 10px;
       margin-top: 30px;
     }
+    h3 { color: #c2410c; margin: 0 0 8px; }
 
-    h3 {
-      color: #c2410c;
-      margin: 0 0 8px;
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
     }
 
-    hr {
-      border: none;
-      border-top: 3px dashed #f97316;
-    }
-
-    section {
-      margin-bottom: 30px;
-    }
-
-    a {
-      color: #c2410c;
-      font-weight: bold;
+    nav a {
+      display: block;
+      padding: 8px 18px;
+      background-color: #f97316;
+      color: #ffffff;
+      border-radius: 20px;
       text-decoration: none;
+      font-weight: bold;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
+    nav a:hover { background-color: #c2410c; }
+
+    a { color: #c2410c; font-weight: bold; }
 
     article {
       background-color: #ffffff;
@@ -79,60 +80,61 @@
       border-radius: 8px;
       margin-top: 10px;
     }
+
+    footer {
+      text-align: center;
+      border-top: 3px dashed #f97316;
+      margin-top: 30px;
+      padding-top: 15px;
+      color: #78716c;
+    }
   </style>
 </head>
 <body>
- <center> <h1>Budget Eats Near TUPM</h1></center>
- <hr>
- <br>
- <br>
-  <p>
-    Gutom ka na ba pero kapos ang allowance? Huwag mag-alala, Iskolar!
-    Dito mo makikita ang mga kainan malapit sa TUPM na busog-sulit,
-    masarap, at hindi masakit sa bulsa. Tara na, kain tayo!
-  </p>
+  <header>
+    <h1>Budget Eats Near TUPM</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section>
-    <h2>Jaren Kyle Bragais</h2>
-
+  <main>
     <p>
-      Kumusta, ka-TUP! Ako si Jaren Kyle Bragais, estudyante rin na araw-araw
-      nag-iisip kung saan makakakain nang mura pero solid. Ilang beses
-      na akong nag-ikot sa paligid ng campus para hanapin ang mga
-      pinakamasarap at pinakamatipid na kainan, kaya ako na ang bahala
-      sa'yo. Sa listahang ito, walang sayang na pamasahe, walang sayang
-      na pera, at siguradong walang gutom na tiyan. Kaya mo ito, kain na!
+      Gutom ka na ba pero kapos ang allowance? Huwag mag-alala, Iskolar!
+      Dito mo makikita ang mga kainan malapit sa TUPM na busog-sulit,
+      masarap, at hindi masakit sa bulsa. Tara na, kain tayo!
     </p>
 
-    <ul>
-      <li><a href="#">My Places Guide</a></li>
-    </ul>
-  </section>
-
-  <section>
     <h2>My Top Picks</h2>
 
     <article>
       <h3>Great Lemon</h3>
-      <p>Inuman / Milk tea &amp; lemon drinks · Malapit sa TUPM</p>
-      <p>Pamatay-uhaw pagkatapos ng klase! Presko at abot-kaya ang mga inumin dito, perfect pang-refresh kapag mainit ang panahon at pagod na sa lecture.</p>
+      <p>Milk tea at lemon drinks · Malapit sa TUPM</p>
+      <p>Pamatay-uhaw pagkatapos ng klase! Presko at abot-kaya ang mga inumin dito.</p>
       <img src="place1.jpg" alt="Baso ng malamig na lemon drink mula sa Great Lemon">
     </article>
 
     <article>
       <h3>JM's Food House</h3>
-      <p>Kainan / Rice meals · Malapit sa TUPM</p>
-      <p>Busog-sulit para sa estudyanteng tipid! Masarap ang luto, malaki ang serving, at swak sa bulsa kaya paborito ng mga ka-TUP tuwing lunch.</p>
+      <p>Rice meals · Malapit sa TUPM</p>
+      <p>Busog-sulit para sa estudyanteng tipid! Malaki ang serving at swak sa bulsa.</p>
       <img src="place2.jpg" alt="Plato ng kanin at ulam na inihain sa JM's Food House">
     </article>
 
     <article>
       <h3>Siomai King</h3>
       <p>Merienda / Siomai · Malapit sa TUPM</p>
-      <p>Mainit, juicy, at mura! Solid na pang-merienda ang siomai nila na may kasamang sawsawan, kaya hindi mo kailangang gumastos nang malaki para mabusog.</p>
+      <p>Mainit, juicy, at mura! Solid na pang-merienda na hindi masakit sa bulsa.</p>
       <img src="place3.jpg" alt="Mga piraso ng siomai na may sawsawan mula sa Siomai King">
     </article>
-  </section>
+  </main>
 
+  <footer>
+    <p>&copy; 2026 Budget Eats Near TUPM</p>
+  </footer>
 </body>
 </html>
